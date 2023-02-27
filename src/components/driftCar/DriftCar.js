@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Card } from "react-bootstrap";
 
 const driftcars = [
@@ -65,6 +65,9 @@ const driftcars = [
 ];
 
 const DriftCar = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1 style={{ marginLeft: "60px" }} className="h1">
