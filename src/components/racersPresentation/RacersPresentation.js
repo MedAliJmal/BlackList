@@ -114,6 +114,78 @@ const members = [
     description:
       "This here is Geni. He prides himself on keeping his hacking knowledge good. He’s fast and shreds radar traps everywhere he can. He’s the straight goods. Don’t take him on until you’re ready.",
   },
+  {
+    id: Math.random(),
+    name: "TBD",
+    imgUrl:
+      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+    rank: "8",
+    discord: "TBD",
+    description: "TBD",
+  },
+  {
+    id: Math.random(),
+    name: "TBD",
+    imgUrl:
+      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+    rank: "9",
+    discord: "TBD",
+    description: "TBD",
+  },
+  {
+    id: Math.random(),
+    name: "TBD",
+    imgUrl:
+      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+    rank: "10",
+    discord: "TBD",
+    description: "TBD",
+  },
+  {
+    id: Math.random(),
+    name: "TBD",
+    imgUrl:
+      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+    rank: "11",
+    discord: "TBD",
+    description: "TBD",
+  },
+  {
+    id: Math.random(),
+    name: "TBD",
+    imgUrl:
+      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+    rank: "12",
+    discord: "TBD",
+    description: "TBD",
+  },
+  {
+    id: Math.random(),
+    name: "TBD",
+    imgUrl:
+      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+    rank: "13",
+    discord: "TBD",
+    description: "TBD",
+  },
+  {
+    id: Math.random(),
+    name: "TBD",
+    imgUrl:
+      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+    rank: "14",
+    discord: "TBD",
+    description: "TBD",
+  },
+  {
+    id: Math.random(),
+    name: "TBD",
+    imgUrl:
+      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+    rank: "15",
+    discord: "TBD",
+    description: "TBD",
+  },
 ];
 const handleChallenge = (discord) => {
   alert(`Challenge accepted! Contact me on ${discord}`);
