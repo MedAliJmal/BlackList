@@ -6,7 +6,7 @@ const HeaderNav = () => {
   return (
     <div className="nave">
       <Navbar bg="dark" variant="dark">
-        <Container>
+        <Container className="counta">
           <Navbar.Brand>
             <img
               src="https://cdn.discordapp.com/attachments/874040015779426315/1078973018522537994/blacklist.png"
@@ -14,7 +14,7 @@ const HeaderNav = () => {
               id="blacklist"
             />
           </Navbar.Brand>
-          <Nav className="me-auto Nav">
+          <Nav className="me-auto navee">
             <Nav.Link>
               {" "}
               <Link

@@ -207,6 +207,7 @@ const DragRace = () => {
           below.
         </p>
         <img
+          id="lgoo"
           style={{
             width: "800px",
             height: "400px",

@@ -4,12 +4,17 @@
   margin: 0 auto;
 }
 
+body {
+  width: 1902px;
+}
+
 .App {
   /* background-image: url("./background.jpg"); */
   background-repeat: no-repeat;
   background-size: 100%;
   background: linear-gradient(rgb(78, 11, 11), rgb(255, 168, 91));
   scroll-behavior: smooth;
+  height: 8000px;
 }
 
 .App-header {
@@ -61,14 +66,16 @@
   color: rgb(115, 34, 34);
 }
 
-.Nav {
+.navee {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 #racepres {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -169,6 +176,7 @@
   display: flex;
   color: black;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
   align-content: flex-start;
   align-items: flex-start;
