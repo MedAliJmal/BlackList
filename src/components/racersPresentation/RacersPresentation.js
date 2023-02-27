@@ -159,42 +159,6 @@ const members = [
     discord: "TBD",
     description: "TBD",
   },
-  {
-    id: Math.random(),
-    name: "TBD",
-    imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
-    rank: "13",
-    discord: "TBD",
-    description: "TBD",
-  },
-  {
-    id: Math.random(),
-    name: "TBD",
-    imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
-    rank: "14",
-    discord: "TBD",
-    description: "TBD",
-  },
-  {
-    id: Math.random(),
-    name: "TBD",
-    imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
-    rank: "15",
-    discord: "TBD",
-    description: "TBD",
-  },
-  {
-    id: Math.random(),
-    name: "TBD",
-    imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
-    rank: "16",
-    discord: "TBD",
-    description: "TBD",
-  },
 ];
 const handleChallenge = (discord) => {
   alert(`Challenge accepted! Contact me on ${discord}`);
