@@ -69,7 +69,7 @@ const DriftCar = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
+    <div style={{ textAlign: "center", marginTop: "50px", height: "1700px" }}>
       <h1 style={{ marginLeft: "60px" }} className="h1">
         Drift Cars :
       </h1>

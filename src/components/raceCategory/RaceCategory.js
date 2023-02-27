@@ -8,7 +8,7 @@ const RaceCategory = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
-    <div>
+    <div style={{ height: "4000px" }}>
       <h1 className="h1" style={{ marginLeft: "60px", marginTop: "30px" }}>
         {" "}
         There are 3 race categories :

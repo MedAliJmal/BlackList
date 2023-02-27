@@ -6,7 +6,7 @@ const RaceRules = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
-    <div>
+    <div style={{ height: "2600px" }}>
       <h1 className="h1" style={{ marginLeft: "60px" }}>
         Race Rules
       </h1>
