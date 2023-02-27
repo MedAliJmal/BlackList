@@ -204,7 +204,7 @@ const RacersPresentation = () => {
             The Blacklist : We are the street rulers of los santos having the
             best drivers in the city.
             <br /> To become a member you need to prove your self during the
-            races & cops poruits to get a chance to challenge some BLACKLIST
+            races & cops porsuits to get a chance to challenge some BLACKLIST
             members in races and by winning you take their rank.
           </p>
         </div>
