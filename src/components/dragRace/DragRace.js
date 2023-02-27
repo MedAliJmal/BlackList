@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Card } from "react-bootstrap";
 
 const musclecars = [
@@ -174,6 +174,10 @@ const musclecars = [
 ];
 
 const DragRace = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <div>
       <h1 className="h1" style={{ marginLeft: "100px" }}>

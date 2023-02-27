@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button, Card, Carousel } from "react-bootstrap";
 
 const racersCars = [
@@ -191,6 +191,10 @@ const handleChallenge = (discord) => {
   alert(`Challenge accepted! Contact me on ${discord}`);
 };
 const RacersPresentation = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <div>
       <div id="racepres">

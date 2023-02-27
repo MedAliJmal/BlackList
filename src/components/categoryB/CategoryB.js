@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button, Card } from "react-bootstrap";
 
 const cars = [
@@ -366,6 +366,9 @@ const cars = [
 ];
 
 const CategoryB = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1 className="h1" style={{ marginLeft: "60px" }}>
