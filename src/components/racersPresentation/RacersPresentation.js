@@ -188,7 +188,7 @@ const RacersPresentation = () => {
       </div>
 
       <div>
-        <h1 className="h1" style={{ marginLeft: "130px", marginTop: "30px" }}>
+        <h1 className="h1 h1spec" style={{ marginTop: "30px" }}>
           Blacklist Members
         </h1>
         <div className="Card-cont">
@@ -258,9 +258,7 @@ const RacersPresentation = () => {
         </div>
       </div>
       <div id="carousselle">
-        <h1 className="h1" style={{ marginLeft: "130px" }}>
-          Blacklist Cars
-        </h1>
+        <h1 className="h1 h1spec">Blacklist Cars</h1>
         <Carousel fade className="caro">
           {racersCars.map((el) => (
             <Carousel.Item key={el.id}>
@@ -275,14 +273,13 @@ const RacersPresentation = () => {
                 }}
               />
               <Carousel.Caption
+                className="desc-caro"
                 style={{
                   border: "white solid 2px",
                   backgroundColor: "black",
                   width: "80%",
                   borderTopLeftRadius: "50px",
                   borderBottomLeftRadius: "50px",
-                  marginLeft: "200px",
-                  height: "90px",
                 }}
               >
                 <h3 className="carname">{el.carName}</h3>
@@ -293,9 +290,7 @@ const RacersPresentation = () => {
         </Carousel>
       </div>
       <div>
-        <h1 className="h1" style={{ marginLeft: "130px" }}>
-          How to become a member ?
-        </h1>
+        <h1 className="h1 h1spec">How to become a member ?</h1>
         <p className="parag">
           All you need to do is to prove your self in the street racing scenes,
           have a good knowledge about the cars & porsuits , after that you'll be
@@ -305,13 +300,14 @@ const RacersPresentation = () => {
         </p>
         <ul className="lista">
           <li>Sprint :</li>
-          <p>
+          <p className="parag2">
             The blacklist member selects his best sprint race, a sprint race is
             a 1 lap race from start line to a finish line.
           </p>
           <img
             src="https://cdn.discordapp.com/attachments/874040015779426315/1079049792883281920/SPRINT.png"
             alt=""
+            className="imgheight"
             style={{
               margin: "10px",
               borderRadius: "30px",
@@ -320,18 +316,19 @@ const RacersPresentation = () => {
           />
 
           <li>Circuit : </li>
-          <p>Race with a number of laps.</p>
+          <p className="parag2">Race with a number of laps.</p>
           <img
             src="https://cdn.discordapp.com/attachments/874040015779426315/1079050605953294356/latest.png"
             alt=""
+            className="imgheight"
             style={{
               margin: "10px",
               borderRadius: "30px",
               border: " solid white 4px",
             }}
           />
-          <li style={{ width: "300px", margin: "0px" }}>Drag Race :</li>
-          <p style={{ width: "1300px", margin: "0px" }}>
+          <li className="h1">Drag Race :</li>
+          <p className="parag2">
             A race in a straight line starting from a standstill, the winner
             being the car that can accelerate the fastest.
             <br />
@@ -340,39 +337,39 @@ const RacersPresentation = () => {
           </p>
           <div style={{ dispay: "flex", margin: "0px" }}>
             <img
+              className="imgheight"
               src="https://cdn.discordapp.com/attachments/874040015779426315/1079050995239239740/drag.png"
               alt=""
               style={{
                 margin: "10px",
                 borderRadius: "30px",
                 border: " solid white 4px",
-                height: "400px",
               }}
             />
             <img
+              className="imgheight"
               src="https://cdn.discordapp.com/attachments/874040015779426315/1079051414292140122/maxresdefault.png"
               alt=""
               style={{
                 margin: "10px",
                 borderRadius: "30px",
                 border: " solid white 4px",
-                height: "400px",
               }}
             />
           </div>
-          <li>High Heat Porsuit :</li>
-          <p>
+          <li className="h12">High Heat Porsuit :</li>
+          <p className="parag2">
             We send you on a mission : drug deal or a gun deal, and the police
             will porsuit you. if you make it safe ! Welcome to the crew.
           </p>
           <img
+            className="imgheight"
             src="https://cdn.discordapp.com/attachments/874040015779426315/1079052332978946078/197784-gta-5-950x480-1.png"
             alt=""
             style={{
               margin: "10px",
               borderRadius: "30px",
               border: " solid white 4px",
-              height: "400px",
             }}
           />
           <p>GOOD LUCK.</p>

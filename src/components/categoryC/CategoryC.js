@@ -155,9 +155,7 @@ const CategoryC = () => {
   }, []);
   return (
     <div style={{ textAlign: "center", marginTop: "50px", height: "2500px" }}>
-      <h1 className="h1" style={{ marginLeft: "60px" }}>
-        Class B race cars :
-      </h1>
+      <h1 className="h1 h1spec">Class B race cars :</h1>
       <p className="parag">
         Cars that have approximately a top speed of 210 KM/H , a pretty good
         handling & an acceptable acceleration rate.
@@ -172,9 +170,8 @@ const CategoryC = () => {
         {slowcars.map((el) => (
           <Card
             key={el.id}
+            className="carcard"
             style={{
-              width: "25rem",
-              height: "18rem",
               backgroundImage:
                 "url(https://www.teahub.io/photos/full/110-1106101_racing-cars-wallpapers-4k-hd.jpg)",
               backgroundSize: "100%",

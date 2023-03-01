@@ -371,7 +371,7 @@ const CategoryB = () => {
   }, []);
   return (
     <div style={{ textAlign: "center", marginTop: "50px", height: "5500px" }}>
-      <h1 className="h1" style={{ marginLeft: "60px" }}>
+      <h1 className="h1 h1spec" style={{ marginLeft: "60px" }}>
         Class B race cars :
       </h1>
       <p className="parag">
@@ -389,8 +389,6 @@ const CategoryB = () => {
           <Card
             key={el.id}
             style={{
-              width: "25rem",
-              height: "18rem",
               backgroundImage:
                 "url(https://www.teahub.io/photos/full/110-1106101_racing-cars-wallpapers-4k-hd.jpg)",
               backgroundSize: "100%",

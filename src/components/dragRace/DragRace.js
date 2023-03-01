@@ -180,9 +180,7 @@ const DragRace = () => {
   }, []);
   return (
     <div style={{ height: "3900px" }}>
-      <h1 className="h1" style={{ marginLeft: "100px" }}>
-        What's a drag race ?
-      </h1>
+      <h1 className="h1 h1spec">What's a drag race ?</h1>
       <div
         style={{
           display: "flex",
@@ -191,15 +189,7 @@ const DragRace = () => {
           flexWrap: "wrap",
         }}
       >
-        <p
-          className="parag"
-          style={{
-            fontSize: "30px",
-            width: "800px",
-            margin: "20px",
-            marginLeft: "90px",
-          }}
-        >
+        <p className="parag">
           As you know one of the things demanded to become a member of the crew,
           you need to beat one of the blacklist drivers on a bunch of races, one
           of those races is the Drag Race. So its a straight line track (1/2
@@ -212,9 +202,8 @@ const DragRace = () => {
         </p>
         <img
           id="lgoo"
+          className="imgheight"
           style={{
-            width: "800px",
-            height: "400px",
             border: "4px solid white",
             borderRadius: "30px",
           }}
@@ -224,18 +213,16 @@ const DragRace = () => {
         <img
           src="https://cdn.discordapp.com/attachments/874040015779426315/1079050995239239740/drag.png"
           alt=""
+          className="imgheight"
           style={{
-            width: "400px",
-            height: "400px",
             border: "4px solid white",
             borderRadius: "30px",
             margin: "50px",
           }}
         />
         <img
+          className="imgheight"
           style={{
-            width: "800px",
-            height: "400px",
             border: "4px solid white",
             borderRadius: "30px",
             margin: "50px",
@@ -253,10 +240,9 @@ const DragRace = () => {
       >
         {musclecars.map((el) => (
           <Card
+            className="carcard"
             key={el.id}
             style={{
-              width: "25rem",
-              height: "18rem",
               backgroundImage:
                 "url(https://www.teahub.io/photos/full/110-1106101_racing-cars-wallpapers-4k-hd.jpg)",
               backgroundSize: "100%",

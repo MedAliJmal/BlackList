@@ -369,9 +369,7 @@ const CategoryS = () => {
   }, []);
   return (
     <div style={{ textAlign: "center", marginTop: "50px", height: "5500px" }}>
-      <h1 style={{ marginLeft: "60px" }} className="h1">
-        Drift Cars :
-      </h1>
+      <h1 className="h1 h1spec">Drift Cars :</h1>
       <p className="parag">
         You can get your drift car only if you have a good reputation with the
         blacklist!
@@ -385,10 +383,9 @@ const CategoryS = () => {
       >
         {supercars.map((el) => (
           <Card
+            className="carcard"
             key={el.id}
             style={{
-              width: "25rem",
-              height: "18rem",
               backgroundImage:
                 "url(https://www.teahub.io/photos/full/110-1106101_racing-cars-wallpapers-4k-hd.jpg)",
               backgroundSize: "100%",

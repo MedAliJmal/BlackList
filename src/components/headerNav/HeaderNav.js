@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const HeaderNav = () => {
   return (
     <div className="nave">
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" className="navcont">
         <Navbar.Brand>
           <img
             src="https://cdn.discordapp.com/attachments/874040015779426315/1078973018522537994/blacklist.png"
