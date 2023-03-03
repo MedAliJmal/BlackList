@@ -154,7 +154,7 @@ const CategoryC = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
-    <div style={{ textAlign: "center", marginTop: "50px", height: "2500px" }}>
+    <div style={{ textAlign: "center", marginTop: "50px", height: "150%" }}>
       <h1 className="h1 h1spec">Class B race cars :</h1>
       <p className="parag">
         Cars that have approximately a top speed of 210 KM/H , a pretty good

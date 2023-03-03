@@ -6,7 +6,7 @@ const RaceRules = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
-    <div style={{ height: "2600px" }}>
+    <div style={{ height: "150%" }}>
       <h1 className="h1 h1spec">Race Rules</h1>
       <h3 className="parag parag2">
         TO AVOID GETTING BANNED FROM RACES AL YOU NEED TO DO IS TO RESPECT THIS

@@ -179,7 +179,7 @@ const DragRace = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
-    <div style={{ height: "3900px" }}>
+    <div style={{ height: "150%" }}>
       <h1 className="h1 h1spec">What's a drag race ?</h1>
       <div
         style={{

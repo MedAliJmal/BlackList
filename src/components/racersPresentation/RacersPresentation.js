@@ -169,7 +169,7 @@ const RacersPresentation = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
-    <div style={{ height: "7500px" }}>
+    <div style={{ height: "150%" }}>
       <div id="racepres">
         <div id="pres">
           <h1 className="h1">Who are we ?</h1>

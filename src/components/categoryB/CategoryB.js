@@ -370,7 +370,7 @@ const CategoryB = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
-    <div style={{ textAlign: "center", marginTop: "50px", height: "5500px" }}>
+    <div style={{ textAlign: "center", marginTop: "50px", height: "150%" }}>
       <h1 className="h1 h1spec" style={{ marginLeft: "60px" }}>
         Class B race cars :
       </h1>
@@ -388,6 +388,7 @@ const CategoryB = () => {
         {cars.map((el) => (
           <Card
             key={el.id}
+            className="carcard"
             style={{
               backgroundImage:
                 "url(https://www.teahub.io/photos/full/110-1106101_racing-cars-wallpapers-4k-hd.jpg)",

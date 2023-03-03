@@ -69,7 +69,7 @@ const DriftCar = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
-    <div style={{ textAlign: "center", marginTop: "50px", height: "1700px" }}>
+    <div style={{ textAlign: "center", marginTop: "50px", height: "150%" }}>
       <h1 className="h1 h1spec">Drift Cars :</h1>
       <p className="parag">
         You can get your drift car only if you have a good reputation with the

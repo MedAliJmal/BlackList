@@ -41,7 +41,6 @@
     background-size: 100%;
     background: linear-gradient(rgb(0, 0, 0), rgb(67, 67, 67));
     scroll-behavior: smooth;
-    height: 12900px;
   }
   .App-header {
     background-color: #282c34;
@@ -289,8 +288,8 @@
   }
 
   .carcard {
-    width: "25rem";
-    height: "18rem";
+    width: 25rem;
+    height: 18rem;
   }
   .App {
     /* background-image: url("./background.jpg"); */
