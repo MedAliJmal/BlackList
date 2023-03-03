@@ -370,7 +370,14 @@ const CategoryB = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
-    <div style={{ textAlign: "center", marginTop: "50px", height: "150%" }}>
+    <div
+      style={{
+        textAlign: "center",
+        marginTop: "50px",
+        height: "150%",
+        paddingBottom: "200px",
+      }}
+    >
       <h1 className="h1 h1spec" style={{ marginLeft: "60px" }}>
         Class B race cars :
       </h1>
