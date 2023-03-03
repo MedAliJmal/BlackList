@@ -14,6 +14,26 @@
     justify-content: center;
     justify-items: center;
   }
+
+  .imgrules {
+    width: 100%;
+    height: 100%;
+  }
+
+  .catcontainer img {
+    width: 100%;
+    height: auto;
+  }
+
+  .catcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .paragrc {
+    width: 100%;
+  }
+
   .App {
     /* background-image: url("./background.jpg"); */
     width: 100%;
@@ -47,7 +67,7 @@
     }
   }
 
-  #blacklist {
+  .blacklist {
     width: 20rem;
     height: auto;
     margin: 0px;
@@ -68,6 +88,11 @@
     text-decoration: none;
   }
 
+  .rulecont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .headtitle:hover {
     color: rgb(115, 34, 34);
   }
@@ -145,19 +170,30 @@
   }
 
   .carname {
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
     color: rgb(124, 20, 20);
     font-family: "Bebas Neue", Times, serif, Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    /* margin-top: -1rem; */
+    font-size: 15px;
+    margin-top: -1rem;
   }
   .carowner {
     color: white;
+    margin-top: -2%;
     font-family: sans-serif;
     font-weight: 800;
     font-style: italic;
   }
+
+  .caroimg {
+    height: 100%;
+    border-radius: 15px;
+    border: white solid 2px;
+  }
+
   .desc-caro {
+    height: 10%;
+    width: 100%;
+    font-size: 9px;
     margin-left: 15px;
     margin-bottom: 15px;
   }
@@ -223,7 +259,7 @@
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: larger;
     color: black;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .categr ul {
@@ -234,7 +270,7 @@
   }
   .categr li {
     color: white;
-    font-size: 25px;
+    font-size: 14px;
   }
 
   .categr img {
@@ -289,11 +325,17 @@
     }
   }
 
-  #blacklist {
+  .caroimg {
+    height: 100%;
+    border-radius: 15px;
+    border: white solid 2px;
+  }
+
+  .blacklist {
     width: 18rem;
     height: auto;
     margin: 0px;
-    justify-self: left;
+    /* justify-self: left; */
   }
 
   .nave {
@@ -317,8 +359,9 @@
   .navee {
     width: 100%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   #racepres {
@@ -360,6 +403,12 @@
     padding: 10px;
   }
 
+  .navcont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
   #racepres img {
     width: 350px;
     height: 610px;
@@ -382,7 +431,7 @@
   }
 
   .desc-caro {
-    margin-left: "200px";
+    margin-left: "280px";
     height: "90px";
   }
   .caro {
@@ -406,6 +455,8 @@
     color: white;
     font-family: sans-serif;
     font-weight: 800;
+    margin-top: -20px;
+    font-size: 25px;
     font-style: italic;
   }
 
@@ -474,5 +525,35 @@
   .card-tit {
     font-family: "Bebas Neue";
     font-size: 25px;
+  }
+
+  .imgheight {
+    height: 500px;
+    width: auto;
+  }
+
+  .catcontainer img {
+    width: 900px;
+    height: auto;
+  }
+  .catcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .paragrc {
+    font-size: 25px;
+  }
+  .imgrules {
+    height: 400px;
+    width: 800px;
+  }
+  .rulecont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .rulecont p {
+    width: 700px;
   }
 }

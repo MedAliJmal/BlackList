@@ -263,21 +263,16 @@ const RacersPresentation = () => {
           {racersCars.map((el) => (
             <Carousel.Item key={el.id}>
               <img
-                className="d-block w-100"
+                className="d-block w-100 caroimg"
                 src={el.carImg}
                 alt="First slide"
-                style={{
-                  height: "900px",
-                  borderRadius: "15PX",
-                  border: "white solid 2px",
-                }}
               />
               <Carousel.Caption
                 className="desc-caro"
                 style={{
                   border: "white solid 2px",
                   backgroundColor: "black",
-                  width: "80%",
+                  width: "100%",
                   borderTopLeftRadius: "50px",
                   borderBottomLeftRadius: "50px",
                 }}

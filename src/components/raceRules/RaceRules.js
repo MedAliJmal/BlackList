@@ -7,10 +7,8 @@ const RaceRules = () => {
   }, []);
   return (
     <div style={{ height: "2600px" }}>
-      <h1 className="h1" style={{ marginLeft: "60px" }}>
-        Race Rules
-      </h1>
-      <h3 className="parag">
+      <h1 className="h1 h1spec">Race Rules</h1>
+      <h3 className="parag parag2">
         TO AVOID GETTING BANNED FROM RACES AL YOU NEED TO DO IS TO RESPECT THIS
         SET OF RULES :
       </h3>
@@ -20,31 +18,21 @@ const RaceRules = () => {
         </li>
 
         <div
+          className="rulecont"
           style={{
-            display: "flex",
-            justifyContent: "space-evenly",
             paddingBottom: "50px",
           }}
         >
           <img
+            className="imgrules"
             style={{
-              width: "800px",
-              height: "400px",
               border: "4px solid white",
               borderRadius: "30px",
             }}
             src="https://cdn.discordapp.com/attachments/874040015779426315/1079376432905605191/maxresdefault.png"
             alt=""
           />
-          <p
-            className="parag"
-            style={{
-              fontSize: "30px",
-              width: "800px",
-              margin: "20px",
-              marginRight: "90px",
-            }}
-          >
+          <p className="parag paragrc">
             What is a PIT ? Its a technique used by law enforcement personnel to
             force a fleeing vehicle to abruptly turn 180 degrees, causing the
             vehicle to stall and stop. Accidents is for sure a part of a race...
@@ -60,21 +48,12 @@ const RaceRules = () => {
           Snitching
         </li>
         <div
+          className="rulecont"
           style={{
-            display: "flex",
-            justifyContent: "space-evenly",
             paddingBottom: "50px",
           }}
         >
-          <p
-            className="parag"
-            style={{
-              fontSize: "30px",
-              width: "800px",
-              margin: "20px",
-              marginLeft: "90px",
-            }}
-          >
+          <p className="parag paragrc">
             You may have problems with other drivers or gangster or who ever it
             is thats normal but don't you ever try to make a trap for someone
             participating in the race like calling the cops or calling other
@@ -83,9 +62,8 @@ const RaceRules = () => {
             related between the blacklist & your crew.
           </p>
           <img
+            className="imgrules"
             style={{
-              width: "800px",
-              height: "400px",
               border: "4px solid white",
               borderRadius: "30px",
             }}
@@ -97,31 +75,21 @@ const RaceRules = () => {
           Toxicity
         </li>
         <div
+          className="rulecont"
           style={{
-            display: "flex",
-            justifyContent: "space-evenly",
             paddingBottom: "50px",
           }}
         >
           <img
+            className="imgrules"
             style={{
-              width: "800px",
-              height: "400px",
               border: "4px solid white",
               borderRadius: "30px",
             }}
             src="https://cdn.discordapp.com/attachments/874040015779426315/1079382517091680316/maxresdefault.png"
             alt=""
           />
-          <p
-            className="parag"
-            style={{
-              fontSize: "30px",
-              width: "800px",
-              margin: "20px",
-              marginLeft: "90px",
-            }}
-          >
+          <p className="parag paragrc">
             Any type of toxicity will cause you a race ban and even may get you
             killed... So if you encountered any problem during the race with
             other drivers keep the rage to your self. No radio Spamming is
@@ -135,21 +103,12 @@ const RaceRules = () => {
           Car Class & Upgrades
         </li>
         <div
+          className="rulecont"
           style={{
-            display: "flex",
-            justifyContent: "space-evenly",
             paddingBottom: "50px",
           }}
         >
-          <p
-            className="parag"
-            style={{
-              fontSize: "30px",
-              width: "800px",
-              margin: "20px",
-              marginLeft: "90px",
-            }}
-          >
+          <p className="parag paragrc">
             The race hoster have the right to check your car upgrades, so when
             you are asked about it say the truth... All you need to do is tell
             him what are the parts installed in your car
@@ -157,9 +116,8 @@ const RaceRules = () => {
             your car category or upgrade this will result in a race ban.
           </p>
           <img
+            className="imgrules"
             style={{
-              width: "800px",
-              height: "400px",
               border: "4px solid white",
               borderRadius: "30px",
             }}

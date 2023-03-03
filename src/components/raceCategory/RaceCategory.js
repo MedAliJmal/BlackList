@@ -9,7 +9,7 @@ const RaceCategory = () => {
   }, []);
   return (
     <div style={{ height: "4000px" }}>
-      <h1 className="h1" style={{ marginLeft: "60px", marginTop: "30px" }}>
+      <h1 className="h1 h1spec" style={{ marginTop: "30px" }}>
         {" "}
         There are 3 race categories :
       </h1>
@@ -20,27 +20,14 @@ const RaceCategory = () => {
           category to make sure that the races are fair enough.
         </p>
         <ul>
-          <li className="parag" style={{ color: "white", fontSize: "45px" }}>
+          <li
+            className="parag paragli"
+            style={{ color: "white", fontSize: "25px" }}
+          >
             C Category :
           </li>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              width: "50%",
-              justifyContent: "center",
-              margin: "20px",
-            }}
-          >
-            <p
-              className="parag"
-              style={{
-                fontSize: "30px",
-                width: "800px",
-                margin: "20px",
-                marginRight: "90px",
-              }}
-            >
+          <div className="catcontainer">
+            <p className="parag paragrc">
               Cars that have a low speed that doesn't surpass 170 KM/H , a
               shitty handling & a useless acceleration rate.
             </p>
@@ -51,38 +38,26 @@ const RaceCategory = () => {
                 margin: "0px",
                 borderRadius: "30px",
                 border: " solid white 4px",
-                height: "500px",
-                width: "800",
               }}
             />
             <Link to={"/Category/C"} style={{ textDecoration: "none" }}>
               {" "}
-              <Button style={{ width: "200px", margin: "20px" }} variant="dark">
+              <Button
+                style={{ width: "200px", margin: "20px" }}
+                variant="outline-danger"
+              >
                 Check Cars
               </Button>
             </Link>
           </div>
-          <li className="parag" style={{ color: "white", fontSize: "45px" }}>
+          <li
+            className="parag paragli"
+            style={{ color: "white", fontSize: "25px" }}
+          >
             B Category :
           </li>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              width: "50%",
-              justifyContent: "center",
-              margin: "20px",
-            }}
-          >
-            <p
-              className="parag"
-              style={{
-                fontSize: "30px",
-                width: "800px",
-                margin: "20px",
-                marginRight: "90px",
-              }}
-            >
+          <div className="catcontainer">
+            <p className="parag paragrc">
               Cars that have approximately a top speed of 210 KM/H , a pretty
               good handling & an acceptable acceleration rate.
             </p>
@@ -93,38 +68,26 @@ const RaceCategory = () => {
                 margin: "0px",
                 borderRadius: "30px",
                 border: " solid white 4px",
-                height: "500px",
-                width: "900px",
               }}
             />
             <Link to={"/Category/B"} style={{ textDecoration: "none" }}>
               {" "}
-              <Button style={{ width: "200px", margin: "20px" }} variant="dark">
+              <Button
+                style={{ width: "200px", margin: "20px" }}
+                variant="outline-danger"
+              >
                 Check Cars
               </Button>
             </Link>
           </div>
-          <li className="parag" style={{ color: "white", fontSize: "45px" }}>
+          <li
+            className="parag paragli "
+            style={{ color: "white", fontSize: "25px" }}
+          >
             S Category :
           </li>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              width: "50%",
-              justifyContent: "center",
-              margin: "20px",
-            }}
-          >
-            <p
-              className="parag"
-              style={{
-                fontSize: "30px",
-                width: "800px",
-                margin: "20px",
-                marginRight: "90px",
-              }}
-            >
+          <div className="catcontainer">
+            <p className="parag paragrc">
               Cars that have a top speed of 220+ KM/H , a great handling & a
               decent acceleration rate.
             </p>
@@ -135,40 +98,26 @@ const RaceCategory = () => {
                 margin: "0px",
                 borderRadius: "30px",
                 border: " solid white 4px",
-                height: "500px",
-                width: "800",
               }}
             />
             <Link to={"/Category/S"} style={{ textDecoration: "none" }}>
               {" "}
-              <Button style={{ width: "200px", margin: "20px" }} variant="dark">
+              <Button
+                style={{ width: "200px", margin: "20px" }}
+                variant="outline-danger"
+              >
                 Check Cars
               </Button>
             </Link>
           </div>
-          <li className="parag" style={{ color: "white", fontSize: "45px" }}>
+          <li
+            className="parag paragli"
+            style={{ color: "white", fontSize: "25px" }}
+          >
             S+ Category :{" "}
           </li>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              width: "50%",
-              justifyContent: "center",
-              margin: "20px",
-            }}
-          >
-            <p
-              className="parag"
-              style={{
-                fontSize: "30px",
-                width: "800px",
-                margin: "20px",
-                marginRight: "90px",
-              }}
-            >
-              It contains every imported car.
-            </p>
+          <div className="catcontainer">
+            <p className="parag paragrc">It contains every imported car.</p>
             <img
               src="https://cdn.discordapp.com/attachments/874040015779426315/1079057412461432953/2-1024x575.png"
               alt=""
@@ -176,13 +125,14 @@ const RaceCategory = () => {
                 margin: "0px",
                 borderRadius: "30px",
                 border: " solid white 4px",
-                height: "500px",
-                width: "800",
               }}
             />
             <a href="https://discord.gg/dictators">
               {" "}
-              <Button style={{ width: "200px", margin: "20px" }} variant="dark">
+              <Button
+                style={{ width: "200px", margin: "20px" }}
+                variant="outline-danger"
+              >
                 Get your car from DS SHOP
               </Button>
             </a>

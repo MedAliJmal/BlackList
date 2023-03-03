@@ -6,11 +6,11 @@ const HeaderNav = () => {
   return (
     <div className="nave">
       <Navbar bg="dark" variant="dark" className="navcont">
-        <Navbar.Brand>
+        <Navbar.Brand className="blacklist">
           <img
             src="https://cdn.discordapp.com/attachments/874040015779426315/1078973018522537994/blacklist.png"
             alt="blacKLIST"
-            id="blacklist"
+            className="blacklist"
           />
         </Navbar.Brand>
         <Nav className="me-auto navee">
