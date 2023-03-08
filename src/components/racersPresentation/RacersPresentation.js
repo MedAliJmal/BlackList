@@ -295,7 +295,7 @@ const RacersPresentation = () => {
       </div>
       <div>
         <h1 className="h1 h1spec">How to become a member ?</h1>
-        <p className="parag">
+        <p className="parag parag3">
           All you need to do is to prove your self in the street racing scenes,
           have a good knowledge about the cars & porsuits , after that you'll be
           challenged by some of the blacklist members each time you beat a
