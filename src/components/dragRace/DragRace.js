@@ -217,7 +217,7 @@ const DragRace = () => {
           style={{
             border: "4px solid white",
             borderRadius: "30px",
-            margin: "50px",
+            marginLeft: "50px",
           }}
         />
         <img
