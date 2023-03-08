@@ -33,9 +33,16 @@ const racersCars = [
   {
     id: Math.random(),
     carImg:
-      "https://img.gta5-mods.com/q95/images/nissan-skyline/902d76-UrasR34Silver1-min.png",
-    carName: "Nissan Skyline GT-R (BNR34) 2002",
+      "https://img.gta5-mods.com/q95/images/2016-mazda-mx-5-pandem-add-on-tuning-animated-engine/e6133a-2.jpg",
+    carName: "2016 Mazda MX5 Pandem",
     owner: "Isaac DIP",
+  },
+  {
+    id: Math.random(),
+    carImg:
+      "https://img.gta5-mods.com/q95/images/2002-mazda-rx-7-spirit-r-type-a-series-iii-fd3s/c7f8dd-20190502014510_1.jpg",
+    carName: "Mazda RX7 Spirit R (FD3S)",
+    owner: "Ray",
   },
   {
     id: Math.random(),
@@ -51,7 +58,7 @@ const members = [
     id: Math.random(),
     name: "CHAWA",
     imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+      "https://cdn.discordapp.com/attachments/874040015779426315/1083100239575126067/image.png",
     rank: "1",
     discord: "Katlewi (CHAWA) #6479",
     description:
@@ -61,7 +68,7 @@ const members = [
     id: Math.random(),
     name: "ICO SAN",
     imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+      "https://cdn.discordapp.com/attachments/1070833756627292180/1082287686087344158/ico_san.png",
     rank: "2",
     discord: "Jico#2079",
     description:
@@ -77,14 +84,16 @@ const members = [
     description:
       "I don't know how Antonio does it, man. His nights are spent in the clubs and days on the streets. This guy's got a lot of street rep. Cops hate him and racers want to be like him. His flash gray Skyline GTR R-33 has cops swarming around it all the time.",
   },
+
   {
     id: Math.random(),
-    name: "Asher Ace AKA Ash",
+    name: "Asher Ace AKA Void",
     imgUrl:
       "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
     rank: "4",
     discord: "ΛƧΉ#7665",
-    description: "...",
+    description:
+      "Void’s always talking about rides, performance, racers, blah, blah, blah. Won’t shut up. He’s got some crazy idea that he’s gonna make it big. When he ain’t street racing, he’s hanging out at shops. His ride is tuned to the max. Apparently the interior is stripped of everything that isn’t related to speed.",
   },
   {
     id: Math.random(),
@@ -311,7 +320,7 @@ const RacersPresentation = () => {
           />
 
           <li>Circuit : </li>
-          <p className="parag2">Race with a number of laps.</p>
+          <p className="parag2 testr">Race with a number of laps.</p>
           <img
             src="https://cdn.discordapp.com/attachments/874040015779426315/1079050605953294356/latest.png"
             alt=""

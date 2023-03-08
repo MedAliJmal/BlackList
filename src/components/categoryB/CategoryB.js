@@ -363,6 +363,30 @@ const cars = [
     carImg:
       "https://cdn.discordapp.com/attachments/874040015779426315/1079367238907351080/voltic.png",
   },
+  {
+    id: Math.random(),
+    carName: "ETR1",
+    carImg:
+      "https://cdn.discordapp.com/attachments/874040015779426315/1083107128593616916/latest.png",
+  },
+  {
+    id: Math.random(),
+    carName: "Buffalo",
+    carImg:
+      "https://cdn.discordapp.com/attachments/874040015779426315/1083108756440744007/buffalo.png",
+  },
+  {
+    id: Math.random(),
+    carName: "Everon Racing",
+    carImg:
+      "https://cdn.discordapp.com/attachments/874040015779426315/1083107446559612949/latest.png",
+  },
+  {
+    id: Math.random(),
+    carName: "Hotring",
+    carImg:
+      "https://cdn.discordapp.com/attachments/874040015779426315/1083107369891942460/hotring-sabre.png",
+  },
 ];
 
 const CategoryB = () => {

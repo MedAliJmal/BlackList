@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const HeaderNav = () => {
@@ -30,7 +30,7 @@ const HeaderNav = () => {
               className="headtitle"
               style={{ textDecoration: "none" }}
             >
-              Race Category
+              Race Cars
             </Link>
           </Nav.Link>
           <Nav.Link>

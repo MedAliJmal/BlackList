@@ -143,8 +143,8 @@ const musclecars = [
   {
     id: Math.random(),
     imgUrl:
-      "https://cdn.discordapp.com/attachments/874040015779426315/1079541777452781662/phoenix.png",
-    name: "Phoenix",
+      "https://cdn.discordapp.com/attachments/874040015779426315/1083106934946811945/latest.png",
+    name: "Gauntlet",
   },
   {
     id: Math.random(),
@@ -189,7 +189,7 @@ const DragRace = () => {
           flexWrap: "wrap",
         }}
       >
-        <p className="parag">
+        <p className="parag parag3">
           As you know one of the things demanded to become a member of the crew,
           you need to beat one of the blacklist drivers on a bunch of races, one
           of those races is the Drag Race. So its a straight line track (1/2

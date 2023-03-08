@@ -11,7 +11,7 @@ const RaceCategory = () => {
     <div style={{ height: "150%", paddingBottom: "200px" }}>
       <h1 className="h1 h1spec" style={{ marginTop: "30px" }}>
         {" "}
-        There are 3 race categories :
+        There are 3 race cars categories :
       </h1>
       <div className="categr">
         <p className="parag">
