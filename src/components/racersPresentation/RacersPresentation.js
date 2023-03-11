@@ -97,12 +97,13 @@ const members = [
   },
   {
     id: Math.random(),
-    name: "Paul Walker AKA BODOUS",
+    name: "Tobey Marshall",
     imgUrl:
       "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
     rank: "5",
     discord: "! YSF/BODOS#4463",
-    description: "...",
+    description:
+      "Tobey Marshall , A blue-collar mechanic and skilled former race car driver from Mount Kisco, New York, he is framed for a crime he didn't commit. Tobey used to manage his late father's garage; Marshall Performance Motors. Struggling to make ends meet. The garage is closed now because of the case !Then Chawa came to the rescue to give this talented driver a new chance.",
   },
   {
     id: Math.random(),
