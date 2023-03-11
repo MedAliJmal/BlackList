@@ -103,7 +103,7 @@ const members = [
     rank: "5",
     discord: "! YSF/BODOS#4463",
     description:
-      "Tobey Marshall , A blue-collar mechanic and skilled former race car driver from Mount Kisco, New York, he is framed for a crime he didn't commit. Tobey used to manage his late father's garage; Marshall Performance Motors. Struggling to make ends meet. The garage is closed now because of the case !Then Chawa came to the rescue to give this talented driver a new chance.",
+      "Tobey is a good mechanic and skilled former race car driver from Mount Kisco, New York, he is framed for a crime he didn't commit. Tobey used to manage his late father's garage :Marshall Performance Motors. Struggling to make ends meet. The garage is closed now because of the case! Then Chawa came and give this talented driver a new chance in LS.",
   },
   {
     id: Math.random(),
@@ -207,12 +207,12 @@ const RacersPresentation = () => {
               key={el.id}
               style={{
                 width: "24rem",
-                height: "650PX",
+                height: "700PX",
                 margin: "25px",
                 backgroundImage:
                   "url(https://images.unsplash.com/photo-1595803475218-21bd60bfd520?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bGFuY2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80)",
 
-                backgroundSize: "120%",
+                backgroundSize: "140%",
                 backgroundPositionY: "50%",
                 backgroundPositionX: "50%",
                 boxShadow: "5px 5px 5px 5px black",
@@ -235,7 +235,7 @@ const RacersPresentation = () => {
                 style={{
                   width: "100%",
                   backdropFilter: "blur(4px)",
-                  height: "265px",
+                  height: "315px",
                 }}
               >
                 <Card.Title
@@ -245,24 +245,23 @@ const RacersPresentation = () => {
                 </Card.Title>
                 <Card.Text
                   style={{
-                    height: "180px",
+                    height: "230px",
                     color: "white",
                     marginTop: "20px",
                   }}
                 >
                   {el.description}
                 </Card.Text>
-                <Card.Text style={{ color: "white" }}>
-                  BLACKLIST Rank : {el.rank}
-                </Card.Text>
-
-                <Button
-                  variant="danger"
-                  onClick={() => handleChallenge(el.discord)}
-                >
-                  Challenge
-                </Button>
               </Card.Body>
+              <Card.Text style={{ color: "white", marginTop: "5px" }}>
+                BLACKLIST Rank : {el.rank}
+              </Card.Text>
+              <Button
+                variant="danger"
+                onClick={() => handleChallenge(el.discord)}
+              >
+                Challenge
+              </Button>
             </Card>
           ))}
         </div>
