@@ -62,13 +62,13 @@ const members = [
     rank: "1",
     discord: "Katlewi (CHAWA) #6479",
     description:
-      "Chawa rocketed to the top of the blacklist using the R32. Now he rolls the streets like he owns them. He'll do anything he can to give himself an edge. That includes messin' with your head. Remember, you can't trust anything he says.",
+      "Chawa is a mysterious guy who rocketed to the top of the blacklist using the R32. Now he rolls the streets like he owns them. He'll do anything he can to give himself an edge. That includes messin' with your head. Remember, you can't trust anything he says.",
   },
   {
     id: Math.random(),
     name: "ICO SAN",
     imgUrl:
-      "https://cdn.discordapp.com/attachments/1070833756627292180/1082287686087344158/ico_san.png",
+      "https://cdn.discordapp.com/attachments/874040015779426315/1084100389709811722/image7.png",
     rank: "2",
     discord: "Jico#2079",
     description:
