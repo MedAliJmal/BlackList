@@ -300,7 +300,7 @@ const RacersPresentation = () => {
           All you need to do is to prove your self in the street racing scenes,
           have a good knowledge about the cars & porsuits , after that you'll be
           challenged by some of the blacklist members each time you beat a
-          member you get his rank & other rewards (Cars,Upgrades,Nitros...).
+          member you get his rank & other rewards (Cars,Upgrades,Nitrous...).
           Each member is gonna demand a number of races :
         </p>
         <ul className="lista">
