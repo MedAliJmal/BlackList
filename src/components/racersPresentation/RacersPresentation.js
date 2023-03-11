@@ -72,7 +72,7 @@ const members = [
     rank: "2",
     discord: "Jico#2079",
     description:
-      "For a japanese driver , Ico owned the streets in japan and became the most wanted driver ! To avoid getting cought and spend the rest of his life in jail , Chawa gave him a hand and invited him to join his crew in Los Santos ! He is ranked 2nd but dont underestimate him he's the same level as Chawa",
+      "For a japanese driver , Ico owned the streets in japan and became the most wanted driver ! To avoid getting cought and spend the rest of his life in jail , Chawa gave him a hand and invited him to join his crew in Los Santos ! He is ranked 2nd but dont underestimate him he's the same level as Chawa.",
   },
   {
     id: Math.random(),
