@@ -319,8 +319,8 @@ const DragRace = () => {
         >
           Just a reminder : <br /> - Drive safely ! make sure to be fair in
           races and avoid pitting other players ! make it competitive but fair .{" "}
-          <br />- Make sure you check the ranked races schedule get enough fuel
-          for it. GOOD LUCK
+          <br />- Make sure you check the ranked races schedule and get enough
+          fuel for it. GOOD LUCK
         </p>
       </div>
     </div>
