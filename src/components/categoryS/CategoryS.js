@@ -455,16 +455,14 @@ const CategoryS = () => {
           }}
         />
         <p
-          className="parag"
+          className="reminder"
           style={{
-            height: "40vh",
             border: "2px white solid",
             borderRadius: "15px",
             backgroundColor: "black",
-            fontSize: "30px",
-            width: "40%",
+
             color: "white",
-            marginLeft: "-5%",
+
             textAlign: "center",
           }}
         >

@@ -210,6 +210,7 @@ const DragRace = () => {
           style={{
             border: "4px solid white",
             borderRadius: "30px",
+            marginTop: "50px",
           }}
           src="https://cdn.discordapp.com/attachments/874040015779426315/1079534968390287421/maxresdefault.png"
           alt=""
@@ -221,7 +222,7 @@ const DragRace = () => {
           style={{
             border: "4px solid white",
             borderRadius: "30px",
-            marginLeft: "50px",
+            marginTop: "50px",
           }}
         />
         <img
@@ -289,8 +290,9 @@ const DragRace = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-evenly",
+          justifyContent: "center",
           marginTop: "70px",
+          flexWrap: "wrap",
         }}
       >
         <img
@@ -304,16 +306,14 @@ const DragRace = () => {
           }}
         />
         <p
-          className="parag"
+          className="reminder"
           style={{
-            height: "40vh",
             border: "2px white solid",
             borderRadius: "15px",
             backgroundColor: "black",
-            fontSize: "30px",
-            width: "40%",
+
             color: "white",
-            marginLeft: "-14%",
+
             textAlign: "center",
           }}
         >

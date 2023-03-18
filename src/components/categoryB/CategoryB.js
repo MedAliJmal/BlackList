@@ -467,8 +467,9 @@ const CategoryB = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-evenly",
+          justifyContent: "center",
           marginTop: "70px",
+          flexWrap: "wrap",
         }}
       >
         <img
@@ -482,16 +483,14 @@ const CategoryB = () => {
           }}
         />
         <p
-          className="parag"
+          className="reminder"
           style={{
-            height: "40vh",
             border: "2px white solid",
             borderRadius: "15px",
             backgroundColor: "black",
-            fontSize: "30px",
-            width: "40%",
+
             color: "white",
-            marginLeft: "-14%",
+
             textAlign: "center",
           }}
         >
