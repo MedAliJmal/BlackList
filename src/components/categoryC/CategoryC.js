@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { Card } from "react-bootstrap";
+import React, { useEffect, useState } from "react";
+import { Card, Form } from "react-bootstrap";
 
 const slowcars = [
   {
@@ -153,6 +153,10 @@ const CategoryC = () => {
     // 👇️ scroll to top on page load
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
+  const [carsearch, setCarsearch] = useState("");
+  const carlist = slowcars.filter((el) =>
+    el.name.toUpperCase().trim().includes(carsearch.trim().toUpperCase())
+  );
   return (
     <div
       style={{
@@ -167,6 +171,29 @@ const CategoryC = () => {
         Cars that have approximately a top speed of 210 KM/H , a pretty good
         handling & an acceptable acceleration rate.
       </p>
+      <Form style={{ width: "40%" }}>
+        <Form.Group
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignContent: "center",
+            alignItems: "center",
+          }}
+          className="mb-3"
+          controlId="formBasicEmail"
+        >
+          <Form.Control
+            type="text"
+            placeholder="Enter your car name"
+            value={carsearch}
+            onChange={(e) => setCarsearch(e.target.value)}
+          />
+          <Form.Text className="text-muted">
+            If your car doesn't appear ask for racers opinion about the car
+            category.
+          </Form.Text>
+        </Form.Group>
+      </Form>
       <div
         style={{
           display: "flex",
@@ -174,7 +201,7 @@ const CategoryC = () => {
           justifyContent: "space-evenly",
         }}
       >
-        {slowcars.map((el) => (
+        {carlist.map((el) => (
           <Card
             key={el.id}
             className="carcard"
@@ -194,6 +221,43 @@ const CategoryC = () => {
             </Card.Body>
           </Card>
         ))}
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-evenly",
+          marginTop: "70px",
+        }}
+      >
+        <img
+          src="https://cdn.discordapp.com/attachments/874040015779426315/1084100389709811722/image7.png"
+          alt="ico san"
+          style={{
+            height: "40vh",
+            width: "auto",
+            border: "2px solid white",
+            borderRadius: "15px",
+          }}
+        />
+        <p
+          className="parag"
+          style={{
+            height: "40vh",
+            border: "2px white solid",
+            borderRadius: "15px",
+            backgroundColor: "black",
+            fontSize: "30px",
+            width: "40%",
+            color: "white",
+            marginLeft: "-14%",
+            textAlign: "center",
+          }}
+        >
+          Just a reminder : <br /> - Drive safely ! make sure to be fair in
+          races and avoid pitting other players ! make it competitive but fair .{" "}
+          <br />- Make sure you check the ranked races schedule get enough fuel
+          for it. GOOD LUCK
+        </p>
       </div>
     </div>
   );
