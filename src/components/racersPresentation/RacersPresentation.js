@@ -99,30 +99,31 @@ const members = [
     id: Math.random(),
     name: "Tobey Marshall",
     imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+      "https://cdn.discordapp.com/attachments/992465719851745440/1087498408371163207/image.png",
     rank: "5",
     discord: "! YSF/BODOS#4463",
     description:
       "Tobey is a good mechanic and skilled former race car driver from Mount Kisco, New York, he is framed for a crime he didn't commit. Tobey used to manage his late father's garage :Marshall Performance Motors. Struggling to make ends meet. The garage is closed now because of the case! Then Chawa came and give this talented driver a new chance in LS.",
+  },
+
+  {
+    id: Math.random(),
+    name: "Isaac DIP AKA Genius",
+    imgUrl:
+      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+    rank: "6",
+    discord: "Dip#7208",
+    description:
+      "This here is Geni. He prides himself on keeping his hacking knowledge good. He’s fast and shreds radar traps everywhere he can. He’s the straight goods. Don’t take him on until you’re ready.",
   },
   {
     id: Math.random(),
     name: "Ray AKA Extatz",
     imgUrl:
       "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
-    rank: "6",
+    rank: "7",
     discord: "Extatz#3957",
     description: "...",
-  },
-  {
-    id: Math.random(),
-    name: "Isaac DIP AKA Genius",
-    imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
-    rank: "7",
-    discord: "Dip#7208",
-    description:
-      "This here is Geni. He prides himself on keeping his hacking knowledge good. He’s fast and shreds radar traps everywhere he can. He’s the straight goods. Don’t take him on until you’re ready.",
   },
   {
     id: Math.random(),
