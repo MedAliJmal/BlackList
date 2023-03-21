@@ -16,21 +16,21 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <HeaderNav />
-        {/* <img
+        <img
           src="./fagousa"
           alt="fagousaaa"
           style={{ width: "1800px", height: "auto" }}
-        /> */}
-        {/* <h1> 9ad ma yaamel l aabed maakom l behy yothmorech </h1> */}
+        />
+        <h1> 9ad ma yaamel l aabed maakom l behy yothmorech </h1>
         <Routes>
-          <Route path="/" element={<RacersPresentation />} />
-          <Route path="/Category" element={<RaceCategory />} />
-          <Route path="/Category/C" element={<CategoryC />} />
-          <Route path="/Category/B" element={<CategoryB />} />
-          <Route path="/Category/S" element={<CategoryS />} />
-          <Route path="/Category/Drift" element={<DriftCar />} />
-          <Route path="/Category/Drag" element={<DragRace />} />
-          <Route path="/RaceRules" element={<RaceRules />} />
+          {/* <Route path="/" element={<RacersPresentation />} /> */}
+          {/* <Route path="/Category" element={<RaceCategory />} /> */}
+          {/* <Route path="/Category/C" element={<CategoryC />} /> */}
+          {/* <Route path="/Category/B" element={<CategoryB />} /> */}
+          {/* <Route path="/Category/S" element={<CategoryS />} /> */}
+          {/* <Route path="/Category/Drift" element={<DriftCar />} /> */}
+          {/* <Route path="/Category/Drag" element={<DragRace />} /> */}
+          {/* <Route path="/RaceRules" element={<RaceRules />} /> */}
         </Routes>
       </BrowserRouter>
     </div>
