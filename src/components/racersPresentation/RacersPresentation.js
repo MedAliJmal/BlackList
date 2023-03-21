@@ -117,7 +117,7 @@ const members = [
     id: Math.random(),
     name: "Isaac DIP AKA Genius",
     imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+      "https://cdn.discordapp.com/attachments/1068590306611695707/1087857434221084672/image.png",
     rank: "6",
     discord: "Dip#7208",
     description:
