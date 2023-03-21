@@ -17,10 +17,15 @@ function App() {
       <BrowserRouter>
         <HeaderNav />
         <img
-          src="./fagousa"
+          src="https://cdn.discordapp.com/attachments/970098252605186099/1087818923619139604/fagousa.png"
           alt="fagousaaa"
           style={{ width: "1800px", height: "auto" }}
         />
+        <h1>
+          {" "}
+          9ad ma yaamel l aabed maakom l behy yothmorech fikom
+          #dev_moghet_w_takhrali_fih
+        </h1>
         <Routes>
           {/* <Route path="/" element={<RacersPresentation />} /> */}
           {/* <Route path="/Category" element={<RaceCategory />} /> */}
