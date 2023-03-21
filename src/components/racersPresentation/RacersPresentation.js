@@ -115,7 +115,7 @@ const members = [
 
   {
     id: Math.random(),
-    name: "Isaac DIP AKA Genius",
+    name: "Isaac DIP AKA Geni",
     imgUrl:
       "https://cdn.discordapp.com/attachments/1068590306611695707/1087857434221084672/image.png",
     rank: "6",
