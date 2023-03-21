@@ -96,7 +96,7 @@ const members = [
     id: Math.random(),
     name: "Asher Ace AKA Void",
     imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+      "https://cdn.discordapp.com/attachments/1006987111586615406/1087871600449290310/image.png",
     rank: "4",
     discord: "ΛƧΉ#7665",
     description:
