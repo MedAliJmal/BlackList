@@ -19,6 +19,13 @@ const racersCars = [
   {
     id: Math.random(),
     carImg:
+      "https://c10.patreonusercontent.com/4/patreon-media/p/post/40824041/091c8c3633024d559e00ec3f6dbf10c0/eyJxIjoxMDAsIndlYnAiOjB9/1.jpg?token-time=1680652800&token-hash=e72EEPa4x3A02gghyBog3hMRwA3qkmd9Q7js6mbH0Wo%3D",
+    carName: "Dodge Charger R/T69",
+    owner: "Ico San",
+  },
+  {
+    id: Math.random(),
+    carImg:
       "https://img.gta5-mods.com/q95/images/mitsubishi-evolution-ix-voltex-add-on-fivem-extras-template/2f1ea1-Voltex.png",
     carName: "Mitsubishi Lancer Evolution IX Voltex",
     owner: "Ico & Chawa",
@@ -26,8 +33,8 @@ const racersCars = [
   {
     id: Math.random(),
     carImg:
-      "https://www.gtav.hachiraito.com/wp-content/uploads/2021/10/r33hr-cover-scaled.jpg",
-    carName: "1995 Nissan Skyline GT-R R33 V-Spec",
+      "https://img.gta5-mods.com/q95/images/bmw-m4-gts-liberty-walk/cdd8ce-20211226230614_1.jpg",
+    carName: "BMW M4 GTS Liberty Walk",
     owner: "Antonio",
   },
   {
@@ -47,9 +54,9 @@ const racersCars = [
   {
     id: Math.random(),
     carImg:
-      "https://img.gta5-mods.com/q95/images/2002-mazda-rx-7-spirit-r-type-a-series-iii-fd3s/c7f8dd-20190502014510_1.jpg",
-    carName: "Mazda RX7 Spirit R (FD3S)",
-    owner: "Ray",
+      "https://img.gta5-mods.com/q95/images/ford-mustang-gt-nfs-gt500-2013-add-on/87a2ff-QQ%E5%9B%BE%E7%89%8720160812214419.jpg",
+    carName: "Ford Mustang GT500",
+    owner: "Tobey",
   },
 ];
 
