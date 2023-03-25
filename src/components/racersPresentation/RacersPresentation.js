@@ -78,7 +78,7 @@ const members = [
     id: Math.random(),
     name: "Antonio Vega AKA Flexi",
     imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+      "https://cdn.discordapp.com/attachments/1006987111586615406/1089311982135558156/image.png",
     rank: "3",
     discord: "Flexi#4642",
     description:
