@@ -47,13 +47,6 @@ const racersCars = [
   {
     id: Math.random(),
     carImg:
-      "https://img.gta5-mods.com/q95/images/2002-mazda-rx-7-spirit-r-type-a-series-iii-fd3s/c7f8dd-20190502014510_1.jpg",
-    carName: "Mazda RX7 Spirit R (FD3S)",
-    owner: "Ray",
-  },
-  {
-    id: Math.random(),
-    carImg:
       "https://img.gta5-mods.com/q95/images/ford-mustang-gt-nfs-gt500-2013-add-on/87a2ff-QQ%E5%9B%BE%E7%89%8720160812214419.jpg",
     carName: "Ford Mustang GT500",
     owner: "Tobey",
@@ -125,11 +118,11 @@ const members = [
   },
   {
     id: Math.random(),
-    name: "Ray AKA Extatz",
+    name: "TBD",
     imgUrl:
       "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
     rank: "7",
-    discord: "Extatz#3957",
+    discord: "TBD",
     description: "...",
   },
   {
