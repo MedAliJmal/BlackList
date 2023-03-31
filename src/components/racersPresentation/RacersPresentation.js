@@ -86,7 +86,7 @@ const members = [
   },
   {
     id: Math.random(),
-    name: "Tobey Marshall",
+    name: "Tobey Marshall AKA BODOS",
     imgUrl:
       "https://cdn.discordapp.com/attachments/992465719851745440/1087498408371163207/image.png",
     rank: "4",
