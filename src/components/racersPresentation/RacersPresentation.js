@@ -107,12 +107,13 @@ const members = [
   },
   {
     id: Math.random(),
-    name: "TBD",
+    name: "Mari AKA RACEQUEEN",
     imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+      "https://cdn.discordapp.com/attachments/1087560695412969472/1091487544505544754/image.png",
     rank: "6",
-    discord: "TBD",
-    description: "TBD",
+    discord: "MARIEM SHINOBI#6122",
+    description:
+      "Mari Yushimaro , Ico's sister she's is crazy. What she can't conquer with skills, she demolishes with speed. Don't let her sweet looks fool ya. She'll thrash anything she sees, including you. She's not afraid to ding her ride to put you out of commission.",
   },
   {
     id: Math.random(),
