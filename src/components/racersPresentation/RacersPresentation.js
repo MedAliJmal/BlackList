@@ -109,7 +109,7 @@ const members = [
     id: Math.random(),
     name: "Mari AKA RACEQUEEN",
     imgUrl:
-      "https://cdn.discordapp.com/attachments/1087560695412969472/1091493078436675686/image.png",
+      "https://cdn.discordapp.com/attachments/874040015779426315/1091494336824352839/image.png",
     rank: "6",
     discord: "MARIEM SHINOBI#6122",
     description:
