@@ -84,23 +84,12 @@ const members = [
     description:
       "I don't know how Antonio does it, man. His nights are spent in the clubs and days on the streets. This guy's got a lot of street rep. Cops hate him and racers want to be like him. His flash gray Skyline GTR R-33 has cops swarming around it all the time.",
   },
-
-  {
-    id: Math.random(),
-    name: "Asher Ace AKA Void",
-    imgUrl:
-      "https://cdn.discordapp.com/attachments/1006987111586615406/1087871600449290310/image.png",
-    rank: "4",
-    discord: "ΛƧΉ#7665",
-    description:
-      "Void’s always talking about rides, performance, racers, blah, blah, blah. Won’t shut up. He’s got some crazy idea that he’s gonna make it big. When he ain’t street racing, he’s hanging out at shops. His ride is tuned to the max. Apparently the interior is stripped of everything that isn’t related to speed.",
-  },
   {
     id: Math.random(),
     name: "Tobey Marshall",
     imgUrl:
       "https://cdn.discordapp.com/attachments/992465719851745440/1087498408371163207/image.png",
-    rank: "5",
+    rank: "4",
     discord: "! YSF/BODOS#4463",
     description:
       "Tobey is a good mechanic and skilled former race car driver from Mount Kisco, New York, he is framed for a crime he didn't commit. Tobey used to manage his late father's garage :Marshall Performance Motors. Struggling to make ends meet. The garage is closed now because of the case! Then Chawa came and give this talented driver a new chance in LS.",
@@ -111,10 +100,19 @@ const members = [
     name: "Isaac DIP AKA Geni",
     imgUrl:
       "https://cdn.discordapp.com/attachments/1068590306611695707/1087857434221084672/image.png",
-    rank: "6",
+    rank: "5",
     discord: "Dip#7208",
     description:
       "This here is Geni. He prides himself on keeping his hacking knowledge good. He’s fast and shreds radar traps everywhere he can. He’s the straight goods. Don’t take him on until you’re ready.",
+  },
+  {
+    id: Math.random(),
+    name: "TBD",
+    imgUrl:
+      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+    rank: "6",
+    discord: "TBD",
+    description: "TBD",
   },
   {
     id: Math.random(),
