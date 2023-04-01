@@ -82,7 +82,7 @@ const members = [
     rank: "3",
     discord: "Flexi#4642",
     description:
-      "I don't know how Antonio does it, man. His nights are spent in the clubs and days on the streets. This guy's got a lot of street rep. Cops hate him and racers want to be like him. His flash gray Skyline GTR R-33 has cops swarming around it all the time.",
+      "I don't know how Antonio does it, man. His nights are spent in the clubs and days on the streets. This guy's got a lot of street rep. Cops hate him and racers want to be like him. His flash black BMW M4 GTS has cops swarming around it all the time.",
   },
   {
     id: Math.random(),
