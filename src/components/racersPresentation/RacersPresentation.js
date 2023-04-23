@@ -19,7 +19,7 @@ const racersCars = [
   {
     id: Math.random(),
     carImg:
-      "https://c10.patreonusercontent.com/4/patreon-media/p/post/40824041/091c8c3633024d559e00ec3f6dbf10c0/eyJxIjoxMDAsIndlYnAiOjB9/1.jpg?token-time=1680652800&token-hash=e72EEPa4x3A02gghyBog3hMRwA3qkmd9Q7js6mbH0Wo%3D",
+      "https://cdn.discordapp.com/attachments/992593636787241000/1099740007520026634/image.png",
     carName: "Dodge Charger R/T69",
     owner: "Ico San",
   },
@@ -33,9 +33,16 @@ const racersCars = [
   {
     id: Math.random(),
     carImg:
-      "https://img.gta5-mods.com/q95/images/bmw-m4-gts-liberty-walk/cdd8ce-20211226230614_1.jpg",
-    carName: "BMW M4 GTS Liberty Walk",
+      "https://cdn.discordapp.com/attachments/992593636787241000/1099740653266669618/569d90-Impreza12.png",
+    carName: "Subaru Impreza WRX STI 2004",
     owner: "Antonio",
+  },
+  {
+    id: Math.random(),
+    carImg:
+      "https://cdn.discordapp.com/attachments/992593636787241000/1099741316327428156/c7f8dd-20190502014510_1.png",
+    carName: "Mazda RX7 Spirit R",
+    owner: "Valeria",
   },
   {
     id: Math.random(),
@@ -47,9 +54,49 @@ const racersCars = [
   {
     id: Math.random(),
     carImg:
+      "https://cdn.discordapp.com/attachments/992593636787241000/1099741739473973328/c716b1-QQE59BBEE7898720160531213512.png",
+    carName: "BMW M3 E46 GTR Most Wanted Edition",
+    owner: "Nathalie",
+  },
+  {
+    id: Math.random(),
+    carImg:
       "https://img.gta5-mods.com/q95/images/ford-mustang-gt-nfs-gt500-2013-add-on/87a2ff-QQ%E5%9B%BE%E7%89%8720160812214419.jpg",
     carName: "Ford Mustang GT500",
     owner: "Tobey",
+  },
+];
+
+const brains = [
+  {
+    id: Math.random(),
+    name: "PUMA Dipp",
+    imgUrl:
+      "https://cdn.discordapp.com/attachments/992593636787241000/1099719022569857044/image.png",
+    role: "Tuner's Manager.",
+    discord: "NOT NEEDED",
+    description:
+      "PUMA might have been quite successful as she has an above average IQ and graduated from LS University with honours. but her love for Isaac made her chose another way of living starting a criminal career. She's known for her reckless driving and calm personality ",
+  },
+  {
+    id: Math.random(),
+    name: "Valeria Williams AKA VIVI",
+    imgUrl:
+      "https://cdn.discordapp.com/attachments/1093668192666275911/1099534646447980605/image.png",
+    role: "Events Host",
+    discord: "NOT NEEDED",
+    description:
+      "This sweet thing goes by the name VIVI. She's all about big block and JDM. She's got a lot of mileage under her wheels so don't be temped to do anything stupid. She's got some serious power under the hood. This doll will get anything she wants just by talking and manipulating your feelings so be careful.",
+  },
+  {
+    id: Math.random(),
+    name: "Nathalie Stella AKA NAT",
+    imgUrl:
+      "https://cdn.discordapp.com/attachments/992593636787241000/1099722358576644127/image.png",
+    role: "Treasurer.",
+    discord: "NOT NEEDED",
+    description:
+      "Nat is known for her business and kindness... but when its about Ico she becomes a devil, and will be always there for him, this cutie isn't good at driving but her passion for cars made her fell for Ico after gifting her first ride... She'll always make sure to provide the things Ico & the crew needs to conquer the streets.",
   },
 ];
 
@@ -68,7 +115,7 @@ const members = [
     id: Math.random(),
     name: "ICO SAN",
     imgUrl:
-      "https://cdn.discordapp.com/attachments/874040015779426315/1084100389709811722/image7.png",
+      "https://cdn.discordapp.com/attachments/992593636787241000/1099723074208804894/image.png",
     rank: "2",
     discord: "Jico#2079",
     description:
@@ -117,12 +164,13 @@ const members = [
   },
   {
     id: Math.random(),
-    name: "TBD",
+    name: "Bumble BEE",
     imgUrl:
-      "https://torange.biz/photofxnew/21/HD/image-profile-picture-racing-helmet-rally-21224.jpg",
+      "https://cdn.discordapp.com/attachments/992593636787241000/1099724026001231872/image.png",
     rank: "7",
-    discord: "TBD",
-    description: "...",
+    discord: "𝑺𝑨𝑩𝑶𝑾𝑾𝑾#5864",
+    description:
+      "A Rookie that recently joined the blacklist and got the potential to get high ranks, This guy hails from the lower east side of LS City but now rides on the coast. He’s a big fan of imports and goes out of his way to take on the big blocks.",
   },
   {
     id: Math.random(),
@@ -202,6 +250,7 @@ const RacersPresentation = () => {
           Blacklist Members
         </h1>
         <div className="Card-cont">
+          <p className="parag parag3">Blacklist Drivers</p>
           {members.map((el) => (
             <Card
               key={el.id}
@@ -262,6 +311,65 @@ const RacersPresentation = () => {
               >
                 Challenge
               </Button>
+            </Card>
+          ))}
+        </div>
+        <div className="Card-cont">
+          <p className="parag parag3">Blacklist Hawks</p>
+          {brains.map((el) => (
+            <Card
+              key={el.id}
+              style={{
+                width: "24rem",
+                height: "700PX",
+                margin: "25px",
+                backgroundImage:
+                  "url(https://images.unsplash.com/photo-1595803475218-21bd60bfd520?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bGFuY2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80)",
+
+                backgroundSize: "140%",
+                backgroundPositionY: "50%",
+                backgroundPositionX: "50%",
+                boxShadow: "5px 5px 5px 5px black",
+                textAlign: "center",
+              }}
+            >
+              <Card.Img
+                variant="top"
+                src={el.imgUrl}
+                style={{
+                  width: "18rem",
+                  height: "18rem",
+                  borderRadius: "100%",
+                  border: "white 2px solid",
+                  marginTop: "10px",
+                  marginBottom: "10px",
+                }}
+              />
+              <Card.Body
+                style={{
+                  width: "100%",
+                  backdropFilter: "blur(4px)",
+                  height: "315px",
+                }}
+              >
+                <Card.Title
+                  style={{ color: "yellow", fontFamily: "Righteous" }}
+                >
+                  {el.name}
+                </Card.Title>
+                <Card.Text
+                  style={{
+                    height: "230px",
+                    color: "white",
+                    marginTop: "20px",
+                  }}
+                >
+                  {el.description}
+                </Card.Text>
+              </Card.Body>
+              <Card.Text style={{ color: "white", marginTop: "5px" }}>
+                Role : {el.role}
+              </Card.Text>
             </Card>
           ))}
         </div>
