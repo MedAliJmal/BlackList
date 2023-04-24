@@ -92,7 +92,7 @@ const brains = [
     id: Math.random(),
     name: "Nathalie Stella AKA NAT",
     imgUrl:
-      "https://cdn.discordapp.com/attachments/992593636787241000/1099722358576644127/image.png",
+      "https://cdn.discordapp.com/attachments/1086044163885244416/1099848558930297022/image.png",
     role: "Treasurer.",
     discord: "NOT NEEDED",
     description:
