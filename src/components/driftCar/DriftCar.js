@@ -4,27 +4,21 @@ import { Card } from "react-bootstrap";
 const driftcars = [
   {
     id: Math.random(),
-    name: "ZR350",
+    name: "Previon",
     imgUrl:
-      "https://cdn.discordapp.com/attachments/874040015779426315/1079091463910076466/zr350.png",
+      "https://cdn.discordapp.com/attachments/1095433113502486629/1108465050089426985/previon.png",
   },
   {
     id: Math.random(),
-    name: "Futo GTX",
+    name: "Tornado Rat Rod",
     imgUrl:
-      "https://cdn.discordapp.com/attachments/874040015779426315/1079091630210031726/futo-gtx.png",
+      "https://cdn.discordapp.com/attachments/1095433113502486629/1108465217899348130/gta-mag-declasse-tornado-rat-rod2-320030.png",
   },
   {
     id: Math.random(),
     name: "WarrenerHKR",
     imgUrl:
       "https://cdn.discordapp.com/attachments/874040015779426315/1079092569423753257/e0a9dd3927a6da53edf9b48737f4cb0a.png",
-  },
-  {
-    id: Math.random(),
-    name: "Penumbra",
-    imgUrl:
-      "https://cdn.discordapp.com/attachments/874040015779426315/1079092830120718438/penumbra.png",
   },
   {
     id: Math.random(),
@@ -40,27 +34,9 @@ const driftcars = [
   },
   {
     id: Math.random(),
-    name: "Gauntlet Hellfire",
-    imgUrl:
-      "https://cdn.discordapp.com/attachments/874040015779426315/1079093523690836068/gauntlet-hellfire.png",
-  },
-  {
-    id: Math.random(),
-    name: "Z190",
-    imgUrl:
-      "https://cdn.discordapp.com/attachments/874040015779426315/1079093673754644691/190z.png",
-  },
-  {
-    id: Math.random(),
     name: "Nebula",
     imgUrl:
       "https://cdn.discordapp.com/attachments/874040015779426315/1079093849714069584/nebula-turbo.png",
-  },
-  {
-    id: Math.random(),
-    name: "Zion",
-    imgUrl:
-      "https://cdn.discordapp.com/attachments/874040015779426315/1079352684722802688/zion.png",
   },
 ];
 
