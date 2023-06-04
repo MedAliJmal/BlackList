@@ -58,13 +58,6 @@ const racersCars = [
     carName: "BMW M3 E46 GTR Most Wanted Edition",
     owner: "Nathalie",
   },
-  {
-    id: Math.random(),
-    carImg:
-      "https://img.gta5-mods.com/q95/images/ford-mustang-gt-nfs-gt500-2013-add-on/87a2ff-QQ%E5%9B%BE%E7%89%8720160812214419.jpg",
-    carName: "Ford Mustang GT500",
-    owner: "Tobey",
-  },
 ];
 
 const brains = [
