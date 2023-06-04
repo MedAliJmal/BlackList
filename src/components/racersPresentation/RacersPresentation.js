@@ -115,7 +115,7 @@ const members = [
     id: Math.random(),
     name: "ICO SAN",
     imgUrl:
-      "https://cdn.discordapp.com/attachments/992593636787241000/1099723074208804894/image.png",
+      "https://cdn.discordapp.com/attachments/1098797777309409380/1114881563570737192/tat.png",
     rank: "2",
     discord: "Jico#2079",
     description:
@@ -131,23 +131,13 @@ const members = [
     description:
       "I don't know how Antonio does it, man. His nights are spent in the clubs and days on the streets. This guy's got a lot of street rep. Cops hate him and racers want to be like him. His flash black BMW M4 GTS has cops swarming around it all the time.",
   },
-  {
-    id: Math.random(),
-    name: "Tobey Marshall AKA BODOS",
-    imgUrl:
-      "https://cdn.discordapp.com/attachments/992465719851745440/1087498408371163207/image.png",
-    rank: "4",
-    discord: "! YSF/BODOS#4463",
-    description:
-      "Tobey is a good mechanic and skilled former race car driver from Mount Kisco, New York, he is framed for a crime he didn't commit. Tobey used to manage his late father's garage :Marshall Performance Motors. Struggling to make ends meet. The garage is closed now because of the case! Then Chawa came and give this talented driver a new chance in LS.",
-  },
 
   {
     id: Math.random(),
     name: "Isaac DIP AKA Geni",
     imgUrl:
       "https://cdn.discordapp.com/attachments/1068590306611695707/1087857434221084672/image.png",
-    rank: "5",
+    rank: "4",
     discord: "Dip#7208",
     description:
       "This here is Geni. He prides himself on keeping his hacking knowledge good. He’s fast and shreds radar traps everywhere he can. He’s the straight goods. Don’t take him on until you’re ready.",
@@ -157,7 +147,7 @@ const members = [
     name: "Mari AKA RACEQUEEN",
     imgUrl:
       "https://cdn.discordapp.com/attachments/874040015779426315/1091494336824352839/image.png",
-    rank: "6",
+    rank: "5",
     discord: "MARIEM SHINOBI#6122",
     description:
       "Mari Yushimaro , Ico's sister she's is crazy. What she can't conquer with skills, she demolishes with speed. Don't let her sweet looks fool ya. She'll thrash anything she sees, including you. She's not afraid to ding her ride to put you out of commission.",
@@ -167,10 +157,20 @@ const members = [
     name: "Bumble BEE",
     imgUrl:
       "https://cdn.discordapp.com/attachments/992593636787241000/1099724026001231872/image.png",
-    rank: "7",
+    rank: "6",
     discord: "𝑺𝑨𝑩𝑶𝑾𝑾𝑾#5864",
     description:
       "A Rookie that recently joined the blacklist and got the potential to get high ranks, This guy hails from the lower east side of LS City but now rides on the coast. He’s a big fan of imports and goes out of his way to take on the big blocks.",
+  },
+  {
+    id: Math.random(),
+    name: "Brian AKA Bullet",
+    imgUrl:
+      "https://cdn.discordapp.com/attachments/1098797777309409380/1114881217150599198/image.png",
+    rank: "7",
+    discord: "! 𝑹𝑰𝑰𝑰𝑪𝑶#2229",
+    description:
+      "Brian O'conner  is a professionel Street racer and a getaway driver who is known for his crazy driving skills and for his well acting under pressure , this guy has been racing and porsuiting with cops and he is never been captured from cops , that's why they call him BULLET .",
   },
   {
     id: Math.random(),
